@@ -1,7 +1,7 @@
 names:
 - microplastic
 nc: 1
-path: ./
+path: c:/Users/blasi/CS-ML/FINAL_PROJ
 task: detect
 test: data/test/images
 train: data/train/images

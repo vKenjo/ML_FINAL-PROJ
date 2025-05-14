@@ -4,13 +4,13 @@ model: yolov8n.pt
 data: temp_data.yaml
 epochs: 1
 time: null
-patience: 50
+patience: 100
 batch: 8
 imgsz: 640
 save: true
 save_period: -1
 cache: false
-device: cpu
+device: '-1'
 workers: 0
 project: runs/detect
 name: train
