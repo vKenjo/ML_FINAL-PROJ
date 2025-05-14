@@ -1,0 +1,19 @@
+# YOLOv8 Microplastics Dataset YAML
+
+# Use absolute paths to avoid issues
+path: C:/Users/blasi/CS-ML/FINAL_PROJ  # Absolute path to the project directory
+train: data/train/images
+val: data/valid/images
+test: data/test/images
+
+# Classes and their names
+names:
+  0: microplastic
+
+# Additional dataset information
+nc: 1                  # Number of classes
+task: segment          # Detection task (segment)
+mode: poly             # Annotation mode (polygon)
+
+# Disable caching to avoid potential errors
+cache: False
