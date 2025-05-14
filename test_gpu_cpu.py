@@ -4,7 +4,7 @@ import subprocess
 
 # TODO: run command: F5
 def check_gpu_cuda():
-    print("=== Simple GPU/CUDA Availability Check ===")
+    print("=== GPU/CUDA Availability Check ===")
 
     # PyTorch CUDA check
     cuda_available = torch.cuda.is_available()
