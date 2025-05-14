@@ -1,8 +1,8 @@
 task: detect
 mode: train
 model: yolov8n.pt
-data: data.yaml
-epochs: 10
+data: temp_data.yaml
+epochs: 1
 time: null
 patience: 50
 batch: 8
@@ -10,7 +10,7 @@ imgsz: 640
 save: true
 save_period: -1
 cache: false
-device: '0'
+device: cpu
 workers: 0
 project: runs/detect
 name: train
@@ -20,12 +20,12 @@ optimizer: auto
 verbose: true
 seed: 0
 deterministic: true
-single_cls: false
-rect: false
+single_cls: true
+rect: true
 cos_lr: false
 close_mosaic: 10
 resume: false
-amp: true
+amp: false
 fraction: 1.0
 profile: false
 freeze: null
