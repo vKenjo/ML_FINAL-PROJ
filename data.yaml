@@ -1,6 +1,6 @@
 enhanced_test: data/enhanced_test/images
 names:
-- microplastic
+- MP
 nc: 1
 path: c:/Users/blasi/CS-ML/FINAL_PROJ
 task: detect
